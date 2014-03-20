@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nav_menus>
+    <menu title="首页" url="/" name="home"></menu>
+    <menu title="目标" url="/goals" name="goals"></menu>
+    <menu title="阅读" url="/reading" name="reading">
+        <menu title="书架" url="/books"></menu>
+        <menu title="在读" url="/reading/status/in-progress"></menu>
+        <menu title="想读" url="/reading/status/wish"></menu>
+        <menu title="已读" url="/reading/status/collect"></menu>
+        <menu title="计划" url="/reading/plans"></menu>
+        <menu title="任务" url="/reading/tasks"></menu>
+        <menu title="记录" url="/timers"></menu>
+        <menu title="回顾" url="/reading/history"></menu>
+    </menu>
+    <menu title="写作" url="/writing" name="writing"></menu>
+    <menu title="日历" url="/calendar" name="calendar"></menu>
+    <menu title="记录" url="/segments" name="segments"></menu>
+    <menu title="计时器" url="/timers" name="timers"></menu>
+    <menu title="分享" url="/pages" name="pages"></menu>
+    <!--
+    <menu title="扇贝" url="/tool/shanbay" name="shanbay"></menu>
+    -->
+</nav_menus>

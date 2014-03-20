@@ -1,0 +1,13 @@
+Entities\\UserBean:
+  type: entity
+  table: cr_users
+  fields:
+    id:
+      type: integer
+      id: true
+      generator:
+        strategy: AUTO
+    email:
+      type: string
+      length: 30
+      nullable: false

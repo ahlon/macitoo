@@ -1,0 +1,117 @@
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+/*
+html {
+    width: 100%;
+    height: 100%;
+    background: #eee url(/assets/img/bg.png) bottom left repeat;
+}
+*/
+body {
+    /*
+    background-color: #d0d0d0;
+    background-image: url("/assets/img/shadow.png"), url("/assets/img/bg_grid.png");
+    background-repeat: repeat-x, repeat;
+    */
+}
+.box {
+    background-color: #fff;
+    /* padding: 10px; */
+    margin: 0 0 20px 0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 0px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 0px 2px rgba(0,0,0,0.1);
+    box-shadow: 0 0px 2px rgba(0,0,0,0.05);
+}
+.container {
+    /* padding-top:20px; */
+    /* border: 1px solid #D0D0D0; */
+    /* -webkit-box-shadow: 0 0 8px #D0D0D0; */
+}
+
+.ok {
+    background-image: url(../img/ok.png);
+}
+.cross {
+    background-image: url(../img/cross.png);
+}
+.segment {
+    padding: 15px 15px 5px 0px;
+    border-bottom: #D1D1D1 1px dotted;
+    line-height: 28px;
+}
+.segment .text {
+    font-size: 15px;
+}
+.segment .time {
+    font-size: 13px;
+    color: #999
+}
+
+.panel {
+    padding: 1px;
+    margin-bottom: 20px;
+    text-align: left;
+    white-space: normal;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background-clip: padding-box;
+}
+
+.panel .title {
+    padding: 8px 14px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ebebeb;
+    border-radius: 5px 5px 0 0;
+}
+.panel .content {
+    padding: 8px 14px;
+}
+
+.top-section {
+    margin: 30px 0 0;
+}
+
+body {
+    padding-top: 60px;
+    font-family: "Microsoft YaHei" ! important;
+}
+
+.list-item {
+    padding: 10px 0 10px 0;
+    border-bottom: 1px dashed #ddd;
+}
+dl.dl-horizontal dt {
+    width:50px;
+    text-align:left
+}
+
+dl.dl-horizontal dd {
+    margin-left:50px;
+}
+
+.cover {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer {
+    border-top: #666 solid 6px;
+    background: #333;
+    padding-top: 16px;
+    color: #fff;
+}
+
+#content {
+    min-height: 600px;
+}

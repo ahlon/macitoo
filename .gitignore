@@ -1,0 +1,7 @@
+.svn
+.git
+.settings/*
+.project
+.buildpath
+/vendor
+/logs

@@ -1,0 +1,401 @@
+Array
+(
+    [@attributes] => Array
+        (
+            [VER] => 0.9
+            [URL] => google.com/
+            [HOME] => 0
+            [AID] => =
+        )
+
+    [RLS] => Array
+        (
+            [@attributes] => Array
+                (
+                    [PREFIX] => http://
+                    [more] => 56
+                )
+
+            [RL] => Array
+                (
+                    [0] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [HREF] => amazon.com/
+                                    [TITLE] => Amazon.com
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [HREF] => wikipedia.org/
+                                    [TITLE] => Wikipedia
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [HREF] => www.yahoo.com/
+                                    [TITLE] => Yahoo!
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [HREF] => youtube.com/
+                                    [TITLE] => YouTube
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [HREF] => yelp.com/
+                                    [TITLE] => Yelp
+                                )
+
+                        )
+
+                    [5] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [HREF] => statcounter.com/
+                                    [TITLE] => StatCounter.com
+                                )
+
+                        )
+
+                    [6] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [HREF] => myspace.com/
+                                    [TITLE] => Myspace
+                                )
+
+                        )
+
+                    [7] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [HREF] => linkedin.com/
+                                    [TITLE] => LinkedIn
+                                )
+
+                        )
+
+                    [8] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [HREF] => imdb.com/
+                                    [TITLE] => The Internet Movie Database (imdb)
+                                )
+
+                        )
+
+                    [9] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [HREF] => google.co.in/
+                                    [TITLE] => Google India
+                                )
+
+                        )
+
+                    [10] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [HREF] => ask.com/
+                                    [TITLE] => ask.com/
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [SD] => Array
+        (
+            [0] => Array
+                (
+                    [@attributes] => Array
+                        (
+                            [TITLE] => A
+                            [FLAGS] => DMOZ
+                            [HOST] => google.com
+                        )
+
+                    [TITLE] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [TEXT] => Google                             
+                                )
+
+                        )
+
+                    [ADDR] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [STREET] => 
+                                    [CITY] => 
+                                    [STATE] => 
+                                    [ZIP] => 
+                                    [COUNTRY] => 
+                                )
+
+                        )
+
+                    [CREATED] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [DATE] => 15-Sep-1997
+                                    [DAY] => 15
+                                    [MONTH] => 09
+                                    [YEAR] => 1997
+                                )
+
+                        )
+
+                    [PHONE] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [NUMBER] => unlisted
+                                )
+
+                        )
+
+                    [OWNER] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [NAME] => unlisted
+                                )
+
+                        )
+
+                    [EMAIL] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [ADDR] => dns-admin@google.com
+                                )
+
+                        )
+
+                    [CLAIMED] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [DATE] => 2011-09-14T16:30:40Z
+                                )
+
+                        )
+
+                    [ALEXAPRO] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [TIER] => intro
+                                )
+
+                        )
+
+                    [LANG] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [LEX] => en
+                                )
+
+                        )
+
+                    [LINKSIN] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [NUM] => 3230823
+                                )
+
+                        )
+
+                    [SPEED] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [TEXT] => 1642
+                                    [PCT] => 41
+                                )
+
+                        )
+
+                    [REVIEWS] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [AVG] => 4.5
+                                    [NUM] => 770
+                                )
+
+                        )
+
+                    [CHILD] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [SRATING] => 0
+                                )
+
+                        )
+
+                    [ASSOCS] => Array
+                        (
+                            [ASSOC] => Array
+                                (
+                                    [@attributes] => Array
+                                        (
+                                            [ID] => googlecom
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [POPULARITY] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [URL] => google.com/
+                                    [TEXT] => 1
+                                )
+
+                        )
+
+                    [REACH] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [RANK] => 1
+                                )
+
+                        )
+
+                    [RANK] => Array
+                        (
+                            [@attributes] => Array
+                                (
+                                    [DELTA] => +0
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [KEYWORDS] => Array
+        (
+            [KEYWORD] => Array
+                (
+                    [@attributes] => Array
+                        (
+                            [VAL] => Mountain View
+                        )
+
+                )
+
+        )
+
+    [DMOZ] => Array
+        (
+            [SITE] => Array
+                (
+                    [@attributes] => Array
+                        (
+                            [BASE] => google.com/
+                            [TITLE] => Google
+                            [DESC] => Enables users to search the world's information, including webpages, images, and videos. Offers unique features and search technology.
+                        )
+
+                    [CATS] => Array
+                        (
+                            [CAT] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [ID] => Top/Computers/Internet/Searching/Search_Engines/Google
+                                                    [TITLE] => Search Engines/Google
+                                                    [CID] => 374822
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [ID] => Top/Regional/North_America/United_States/California/Localities/M/Mountain_View/Business_and_Economy/Industrial/Computers_and_Internet
+                                                    [TITLE] => Industrial/Computers and Internet
+                                                    [CID] => 625367
+                                                )
+
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [ID] => Top/World/Arabic/
+                                                    [TITLE] => 
+                                                    [CID] => 204954
+                                                )
+
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [@attributes] => Array
+                                                (
+                                                    [ID] => Top/World/Fran�ais/Informatique/Internet/Recherche/Moteurs_de_recherche/Google
+                                                    [TITLE] => Moteurs de recherche/Google
+                                                    [CID] => 247347
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,0 +1,122 @@
+<link rel='stylesheet' type='text/css' href="../assets/js/fullcalendar/fullcalendar.css"/>
+<link rel='stylesheet' type='text/css' href='../assets/js/fullcalendar/fullcalendar.print.css' media='print' />
+<script type='text/javascript' src='../assets/js/fullcalendar/fullcalendar.min.js'></script>
+
+<div class="span12">
+    <div class="well">
+        <div>
+            <h2 class="strong" style="text-align:center">每天早上7点起床</h2>
+        </div>
+        <div>
+            <table class="table table-striped">
+                <tr> <th>类型</th> <td>习惯养成</td></tr>
+                <tr> <th>状态</th> <td>进行中</td></tr>
+                <tr> <th>开始时间</th> <td>2012年4月14日</td></tr>
+                <tr> <th>结束时间</th> <td>2012年5月14日</td></tr>
+                <tr> <th>进度</th> 
+                    <td> 
+                        <div class="progress progress-success">
+                         <div class="bar"
+                            style="width: 60%;"></div>
+                        </div>
+                    </td>
+                </tr>
+                <!-- 
+                <tr> <th></th> <td><div id='calendar'></div></td></tr>
+                 -->
+                
+                <tr> <th>奖励</th> <td>奖励自己宝马一辆</td></tr>
+                <tr> <th>实施情况</th> 
+                    <td>
+                       <!-- 
+                        <span class="label label-success"> 1</span>
+                        <span class="label label-success"> 2</span>
+                        <span class="label label-success"> 3</span>
+                        <span class="label label-success"> 4</span>
+                        <span class="label label-important"> 5</span>
+                        <span class="label ">6</span>
+                        <span class="label ">7</span>
+                        --> 
+                        <div id='calendar'></div>
+                    </td>
+                 </tr>
+                <tr> <th>奖励</th> <td>奖励自己宝马一辆</td></tr>
+                <tr> <th>实施情况</th> 
+                    <td>
+                        <span class="label label-success"> 1</span>
+                        <span class="label label-success"> 2</span>
+                        <span class="label label-success"> 3</span>
+                        <span class="label label-success"> 4</span>
+                        <span class="label label-important"> 5</span>
+                        <span class="label ">6</span>
+                        <span class="label ">7</span>
+                    </td>
+                 </tr>
+                </table>
+            </div>
+        </div>
+        <div class="span6">
+            <div id='calendar'></div>
+        </div>
+        <div class="btn-toolbar"></div>
+    </div>
+
+<style>
+.fc-event a {
+    background-color: black; /* background color */
+    border-color: black;     /* border color (often same as background-color) */
+    color: red;              /* text color */
+}
+#calendar {
+   width: 400px;
+   margin: 0 auto;
+}        
+</style>
+<script type="text/javascript">
+$(function() {
+    $('#example').tooltip();
+    
+    var date = new Date();
+    var d = date.getDate();
+    var m = date.getMonth();
+    var y = date.getFullYear();
+    
+    $('#calendar').fullCalendar({
+    	header:{
+            right: '',
+            center: 'title',
+            left: ''
+          },
+        theme:true,
+        //editable: true,
+        monthNames: ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"],
+        dayNamesShort: ["周日", "周一", "周二", "周三", "周四", "周五", "周六"],
+        today: ["今天"],
+        buttonText: {
+        	today: "今天",
+        	prev: "上一月",
+        	next: "下一月",
+        	month: "月",
+        	agendaWeek: "周",
+        	agendaDay: "天"},
+        events: [
+            {
+            	id: '1',
+            	title: '成功',
+                start: new Date(y, m, 1),
+                className:"btn btn-primary",
+                color:"#0074cc"
+            },
+            {
+                id: '2',
+                title: '失败',
+                start: new Date(y, m, 2),
+                //editable:true,
+                className:"btn btn-danger",
+                color:"#da4f49"
+            }
+        ]
+       //monthNames:['1', '2','3','4','5','6','7','8','9','10','11','12']
+    });
+});
+</script>

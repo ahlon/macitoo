@@ -1,0 +1,4 @@
+ActiveRecord
+http://hi.baidu.com/xiaoziju/item/e2976e6973d6f308a1cf0f83
+http://www.oschina.net/p/php-activerecord
+http://www.phpactiverecord.org/

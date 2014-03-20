@@ -1,0 +1,7 @@
+{
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "squizlabs/php_codesniffer": "1.5.0RC2",
+		"fivefilters/php-readability": "dev-master"
+    }
+}
